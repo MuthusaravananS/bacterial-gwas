@@ -1,0 +1,33 @@
+name: Bacterial-gwas
+channels:
+  - conda-forge
+  - bioconda
+  - daler
+  - defaults
+dependencies:
+  - samtools
+  - bwa
+  - fastqc
+  - python=3
+  - minimap2
+  - ragtag
+  - abricate
+  - mlst
+  - spades
+  - minimap2
+  - mummer
+  - mash
+  - roary
+  - mafft
+  - prokka
+  - quast
+  - sickle-trim
+  - porechop
+  - sra-tools
+  - pip
+  - pip:
+      - numpy
+      - matplotlib
+      - matplotlib-venn
+      - biopython
+      - dREP
